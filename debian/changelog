@@ -1,0 +1,60 @@
+node-unicode-match-property-ecmascript (2.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Declare d/rules doesn't require root.
+  * Install in /usr/share/nodejs and not /usr/lib/nodejs.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sat, 18 Sep 2021 10:03:36 +0200
+
+node-unicode-match-property-ecmascript (1.0.4-3) unstable; urgency=medium
+
+  * Remove constraints unnecessary since buster:
+    + node-unicode-match-property-ecmascript: Drop versioned constraint on
+      node-unicode-canonical-property-names-ecmascript,
+      node-unicode-property-aliases-ecmascript and nodejs in Depends.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Wed, 15 Sep 2021 18:40:33 +0100
+
+node-unicode-match-property-ecmascript (1.0.4-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Julien Puydt ]
+  * Fix d/watch.
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since stretch:
+    + Build-Depends: Drop versioned constraint on nodejs.
+
+  [ Julien Puydt ]
+  * Mark the package as Multi-Arch foreign.
+  * Bump debhelper compat to level 13.
+  * Bump standards-version to 4.6.0.
+  * Mark the require autopkgtest as superficial.
+
+ -- Julien Puydt <jpuydt@debian.org>  Tue, 31 Aug 2021 13:11:35 +0200
+
+node-unicode-match-property-ecmascript (1.0.4-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh packaging:
+    - Use my debian.org mail address.
+    - Use salsa in Vcs-* fields.
+    - Bump dh compat to 11.
+    - Update dates in d/copyright.
+    - Bump std-ver to 4.1.5.
+  * Update deps versions.
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 30 Jul 2018 12:20:59 +0200
+
+node-unicode-match-property-ecmascript (1.0.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #874785)
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sat, 09 Sep 2017 17:17:45 +0200

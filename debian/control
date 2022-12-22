@@ -1,0 +1,25 @@
+Source: node-unicode-match-property-ecmascript
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13), nodejs
+Standards-Version: 4.6.0
+Homepage: https://github.com/mathiasbynens/unicode-match-property-ecmascript
+Vcs-Git: https://salsa.debian.org/js-team/node-unicode-match-property-ecmascript.git
+Vcs-Browser: https://salsa.debian.org/js-team/node-unicode-match-property-ecmascript
+Rules-Requires-Root: no
+
+Package: node-unicode-match-property-ecmascript
+Architecture: all
+Multi-Arch: foreign
+Depends: node-unicode-canonical-property-names-ecmascript,
+         node-unicode-property-aliases-ecmascript,
+         nodejs,
+         ${misc:Depends}
+Description: Match a Unicode property to its canonical name for Node.js
+ This package provides a function to match a Unicode property or property
+ alias to its canonical property name according to the algorithm used for
+ RegExp Unicode property escapes in ECMAScript.
+ .
+ Node.js is an event-based server-side JavaScript engine.
