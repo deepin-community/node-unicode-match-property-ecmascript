@@ -1,3 +1,10 @@
+node-unicode-match-property-ecmascript (2.0.0-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-unicode-match-property-ecmascript: Add :any qualifier for nodejs dependency.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 21 Nov 2022 10:35:12 +0000
+
 node-unicode-match-property-ecmascript (2.0.0-1) unstable; urgency=medium
 
   * New upstream release.
