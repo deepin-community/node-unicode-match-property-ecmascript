@@ -15,7 +15,7 @@ Architecture: all
 Multi-Arch: foreign
 Depends: node-unicode-canonical-property-names-ecmascript,
          node-unicode-property-aliases-ecmascript,
-         nodejs,
+         nodejs:any,
          ${misc:Depends}
 Description: Match a Unicode property to its canonical name for Node.js
  This package provides a function to match a Unicode property or property
